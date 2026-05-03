@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/skenneth-njoroge-76a848127/"
+                href="https://www.linkedin.com/in/kenneth-njoroge-76a848127/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -51,16 +51,16 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            /*<li className="social-icons">
+            {/*<li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
               </a>
-            </li>*/
+            </li>*/}
           </ul>
         </Col>
       </Row>
