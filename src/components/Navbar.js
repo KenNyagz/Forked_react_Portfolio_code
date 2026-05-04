@@ -95,7 +95,20 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-            {/*
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certifications"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Certifications
+              </Nav.Link>
+            </Nav.Item>
+      {/*
             <Nav.Item>
               <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
@@ -105,7 +118,7 @@ function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
-            */}
+      */}
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/KenNyagz/Forked_react_Portfolio_code"
