@@ -47,7 +47,7 @@ const Certifications = () => {
                 demolink='https://intranet.alxswe.com/certificates/M2pcJZmER8'
             />
             <ProjectCard
-                title='Kubernetes Cloud Native Essentials'
+                title='Kubernetes Cloud Native Associate'
                 issuer='Cloud Native Computing Foundation'
                 date='2024'
                 imgPath={ KCNA }
