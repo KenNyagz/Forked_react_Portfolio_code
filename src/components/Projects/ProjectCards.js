@@ -20,7 +20,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button variant="primary" href={props.demolink} target="_blank">
 
-          {props.isBlog ? "Blog" : "Reference"}
+          {props.isBlog ? "" : "Reference"}
         </Button>
         {"\n"}
         {"\n"}
