@@ -12,6 +12,7 @@ function Type() {
           "Python Developer",
           "JavaScript Developer",
           "PHP Developer",
+          "Go Developer",
         ],
         autoStart: true,
         loop: true,
