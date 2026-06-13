@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { SiC } from "react-icons/si";
+import { SiDocker, SiKubernetes } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -23,7 +24,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -38,7 +39,7 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -62,7 +63,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiKubernetes />
       </Col>
     </Row>
   );
