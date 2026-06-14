@@ -11,8 +11,7 @@ import {
 } from "react-icons/di";
 import {
   SiRedis,
-  SiFirebase,
-  SiNextdotjs,
+  SiPuppet,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
@@ -42,7 +41,7 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiPuppet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
