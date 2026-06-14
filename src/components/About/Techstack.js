@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiC } from "react-icons/si";
-import { SiDocker, SiKubernetes } from "react-icons/si";
+import { SiC, SiDocker, SiKubernetes, SiNginx } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -49,7 +48,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiNginx />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
