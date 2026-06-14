@@ -4,7 +4,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiAmazonwebservices,
+  SiAmazonaws,
   SiLinux,
 } from "react-icons/si";
 
@@ -24,7 +24,7 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonwebservices />
+        <SiAmazonaws />
       </Col>
     </Row>
   );
