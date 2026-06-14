@@ -6,6 +6,7 @@ import {
   SiSlack,
   SiAmazonaws,
   SiLinux,
+  SiPowerbi
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,7 +22,7 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiPowerbi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
