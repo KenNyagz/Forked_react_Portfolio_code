@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiC, SiDocker, SiKubernetes, SiNginx } from "react-icons/si";
+import { SiC, SiDocker, SiKubernetes, SiNginx, SiMysql } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -54,6 +54,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
