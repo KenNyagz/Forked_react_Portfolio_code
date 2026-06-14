@@ -40,7 +40,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Puppet config manager">
         <SiPuppet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
