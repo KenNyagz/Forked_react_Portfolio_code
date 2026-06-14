@@ -6,7 +6,7 @@ import {
   SiSlack,
   SiAmazonaws,
   SiLinux,
-  SiPowerbi
+  SiPowerbi,
 } from "react-icons/si";
 
 function Toolstack() {
